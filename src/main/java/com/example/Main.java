@@ -14,7 +14,11 @@ public class Main {
         // ejr2.setVisible(true);
 
         // *** Ejercicio 3 ***
-        Ejercicio3 ejr3 = new Ejercicio3();
-        ejr3.setVisible(true);
+        // Ejercicio3 ejr3 = new Ejercicio3();
+        // ejr3.setVisible(true);
+
+        // *** Ejercicio 5 ***
+        Ejercicio5 ejr5 = new Ejercicio5();
+        ejr5.setVisible(true);
     }
 }
