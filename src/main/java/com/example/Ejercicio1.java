@@ -14,13 +14,12 @@ public class Ejercicio1 extends JFrame {
 
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.gridx = 0;
-        gbc.gridy = 0;
+        gbc.gridy = 1;
         gbc.anchor = GridBagConstraints.CENTER;
         gbc.insets = new Insets(1, 1, 1, 1);
 
-        panel.add(centerBtn, gbc); // Pass gbc here
+        panel.add(centerBtn, gbc);
 
-        // Open ven2 when button is clicked
         centerBtn.addActionListener(e -> {
             ven2.setVisible(true);
         });
