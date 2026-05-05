@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Ejercicio1 extends JFrame {
-    public Ejercicio1(JFrame ven2) {
+    public Ejercicio1() {
         setTitle("Ejercicio 1");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -21,7 +21,7 @@ public class Ejercicio1 extends JFrame {
         panel.add(centerBtn, gbc);
 
         centerBtn.addActionListener(e -> {
-            ven2.setVisible(true);
+            JOptionPane.showMessageDialog(this, "HOLA!");
         });
 
         add(panel);

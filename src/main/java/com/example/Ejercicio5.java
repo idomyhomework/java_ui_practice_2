@@ -20,12 +20,12 @@ import java.util.List;
  * Imágenes:
  * - Coloca as.png / rey.png / caballo.png / sota.png / reverso.png
  * en src/main/resources/images/.
- * - Si no existen, se muestran textos (AS / REY / CABALLO / SOTA).
+ * - Si no existen, se muestran textos (AS / REY / REINA / SOTA).
  */
 public class Ejercicio5 extends JFrame {
 
     // ── Constantes ────────────────────────────────────────────────
-    private static final String[] TIPOS = { "AS", "REY", "CABALLO", "SOTA" };
+    private static final String[] TIPOS = { "AS", "REY", "REINA", "SOTA" };
     private static final Color COLOR_REVERSO = new Color(178, 34, 34); // rojo oscuro
     private static final Color COLOR_FRENTE = new Color(255, 248, 220); // crema
 

@@ -6,7 +6,7 @@ public class Main {
         // *** Ejercicio1 ***
 
         // Ejercicio1INFO aux = new Ejercicio1INFO();
-        // Ejercicio1 ejr1 = new Ejercicio1(aux);
+        // Ejercicio1 ejr1 = new Ejercicio1();
         // ejr1.setVisible(true);
 
         // *** Ejercicio2 ***
@@ -18,7 +18,11 @@ public class Main {
         // ejr3.setVisible(true);
 
         // *** Ejercicio 5 ***
-        Ejercicio5 ejr5 = new Ejercicio5();
-        ejr5.setVisible(true);
+        // Ejercicio5 ejr5 = new Ejercicio5();
+        // ejr5.setVisible(true);
+
+        // *** Ejercicio 6 ***
+        Ejercicio6 ejr6 = new Ejercicio6();
+        ejr6.setVisible(true);
     }
 }
