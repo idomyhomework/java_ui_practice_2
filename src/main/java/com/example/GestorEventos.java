@@ -12,6 +12,12 @@ public class GestorEventos implements ActionListener {
         this.ventana = ventana;
     }
 
+    /**
+     * @param obtiene la acción que acaba de ocurrir.
+     *                Recibe acceso a la ventana al tráves del constructor, por eso
+     *                tiene acceso a todos sus métodos y atributos.
+     *                Hace acciones correspondientes con cada botón
+     */
     @Override
     public void actionPerformed(ActionEvent e) {
         Object fuente = e.getSource();
